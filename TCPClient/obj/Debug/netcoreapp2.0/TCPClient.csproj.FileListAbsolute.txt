@@ -1,0 +1,14 @@
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\TCPClient.deps.json
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\TCPClient.runtimeconfig.json
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\TCPClient.runtimeconfig.dev.json
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\TCPClient.dll
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\TCPClient.pdb
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\obj\Debug\netcoreapp2.0\TCPClient.csprojResolveAssemblyReference.cache
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\obj\Debug\netcoreapp2.0\TCPClient.csproj.CoreCompileInputs.cache
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\obj\Debug\netcoreapp2.0\TCPClient.AssemblyInfoInputs.cache
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\obj\Debug\netcoreapp2.0\TCPClient.AssemblyInfo.cs
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\obj\Debug\netcoreapp2.0\TCPClient.dll
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\obj\Debug\netcoreapp2.0\TCPClient.pdb
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\ClassContainer.dll
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\ClassContainer.pdb
+c:\users\hasanoz\source\repos\TCPClient\TCPClient\obj\Debug\netcoreapp2.0\TCPClient.csproj.CopyComplete
