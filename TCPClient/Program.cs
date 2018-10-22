@@ -65,13 +65,16 @@ public class AsynchronousClient
             connectDone.WaitOne();
 
             // Send test data to the remote device.  
-            Send(client, "This is a test<EOF>");
-            sendDone.WaitOne();
-
+            for (int i = 0; i < 50; i++)
+            {
+                Send(client, "This is a test<EOF>");
+                sendDone.WaitOne();
+                Thread.Sleep(1999);
+            }
             // Receive the response from the remote device.  
             Receive(client);
             receiveDone.WaitOne();
-
+            
             // Write the response to the console.  
             Console.WriteLine("Response received : {0}", response);
 
