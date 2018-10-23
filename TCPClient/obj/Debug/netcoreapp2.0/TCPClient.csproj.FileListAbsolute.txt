@@ -12,3 +12,5 @@ c:\users\hasanoz\source\repos\TCPClient\TCPClient\obj\Debug\netcoreapp2.0\TCPCli
 c:\users\hasanoz\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\ClassContainer.dll
 c:\users\hasanoz\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\ClassContainer.pdb
 c:\users\hasanoz\source\repos\TCPClient\TCPClient\obj\Debug\netcoreapp2.0\TCPClient.csproj.CopyComplete
+C:\Users\HASANOZ\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\Game.Models.dll
+C:\Users\HASANOZ\source\repos\TCPClient\TCPClient\bin\Debug\netcoreapp2.0\Game.Models.pdb

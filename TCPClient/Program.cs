@@ -6,6 +6,7 @@ using System.Text;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using ClassContainer;
+using Game.Models;
 // State object for receiving data from remote device.  
 
 public class StateObject
@@ -56,8 +57,7 @@ public class AsynchronousClient
             IPEndPoint remoteEP = new IPEndPoint(ipAddress, port);
 
             // Create a TCP/IP socket.  
-            Socket client = new Socket(ipAddress.AddressFamily,
-                SocketType.Stream, ProtocolType.Tcp);
+            Socket client = new Socket(ipAddress.AddressFamily,SocketType.Stream, ProtocolType.Tcp);
 
             // Connect to the remote endpoint.  
             client.BeginConnect(remoteEP,
@@ -183,11 +183,13 @@ public class AsynchronousClient
         byte[] byteData = Encoding.ASCII.GetBytes(data);
 
         // Begin sending the data to the remote device.  
-
-        SeriObj state = new SeriObj();
-        state.UserName = userName;
-        state.Password = 256;
-       byte[] byteArrays = ObjectToByteArray(state);
+        ModelEnumeration model = new ModelEnumeration();
+        Login loggn = new Login();
+        loggn.Username = "Hasan";
+        loggn.Password = "test123123";
+        model.ModelType = ModelTypes.Login;
+        model.Model = loggn;
+       byte[] byteArrays = ObjectToByteArray(model);
 
     client.BeginSend(byteArrays, 0, byteArrays.Length, 0,
           

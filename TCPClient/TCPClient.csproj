@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\GameServer\Game.Models\Game.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="ClassContainer">
       <HintPath>..\..\GameServer\ClassContainer\bin\Debug\netcoreapp2.0\ClassContainer.dll</HintPath>
     </Reference>

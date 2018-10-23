@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v2.0": {
       "TCPClient/1.0.0": {
         "dependencies": {
+          "Game.Models": "1.0.0",
           "ClassContainer": "1.0.0.0"
         },
         "runtime": {
           "TCPClient.dll": {}
+        }
+      },
+      "Game.Models/1.0.0": {
+        "runtime": {
+          "Game.Models.dll": {}
         }
       },
       "ClassContainer/1.0.0.0": {
@@ -26,6 +32,11 @@
   },
   "libraries": {
     "TCPClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Game.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
